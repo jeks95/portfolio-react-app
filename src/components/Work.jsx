@@ -2,6 +2,7 @@ import React from 'react'
 import BackgroundImg from '../assets/quote-generator.png'
 import QuoteImg from '../assets/joke-teller.png'
 import GradientImg from '../assets/background-generator.png'
+import VideoImg from '../assets/video-player.png'
 
 const Work = () => {
   return (
@@ -62,10 +63,10 @@ const Work = () => {
                         Background Gradient
                     </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://kristians-background-generator.netlify.app/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/jeks95/background-generator">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                         </a>
 
@@ -73,66 +74,27 @@ const Work = () => {
                 </div>
              </div>
              <div
-             style={{ backgroundImage: `url(${QuoteImg})` }}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+             style={{ backgroundImage: `url(${VideoImg})` }}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
                 
                 {/* Hover Effects */}
                 <div className="opacity-0 group-hover:opacity-100">
                     <span className="text-2xl font-bold text-white tracking-wider">
-                        Background Generator
+                        Video Player
                     </span>
                     <div className="pt-8 text-center">
-                        <a href="/">
+                        <a href="https://mypictureinpicture.netlify.app/">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
                         </a>
-                        <a href="/">
+                        <a href="https://github.com/jeks95/Picture-in-Picture">
                             <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
                         </a>
 
                     </div>
                 </div>
-             </div>
-                    {/* Grid Item */}
-                    <div style={{ backgroundImage: `url(${BackgroundImg})` }}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                
-                {/* Hover Effects */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider">
-                        Background Generator
-                    </span>
-                    <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                        </a>
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                        </a>
-
-                    </div>
-                </div>
-             </div>
-             <div
-             style={{ backgroundImage: `url(${QuoteImg})` }}  className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-                
-                {/* Hover Effects */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider">
-                         Generator
-                    </span>
-                    <div className="pt-8 text-center">
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Demo</button>
-                        </a>
-                        <a href="/">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">Code</button>
-                        </a>
-
-                    </div>
-                </div>
-             </div>
-           </div>
-
-        </div>
-    </div>
+             </div>       
+        </div>    
+      </div>
+    </div>   
   )
 }
 
