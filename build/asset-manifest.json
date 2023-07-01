@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jeks95/my-app/static/css/main.c1ba425e.css",
+    "main.js": "/jeks95/my-app/static/js/main.5638d79a.js",
+    "static/media/background-generator.png": "/jeks95/my-app/static/media/background-generator.35e43356d35d83de20f6.png",
+    "static/media/joke-teller.png": "/jeks95/my-app/static/media/joke-teller.bb913c5540152db8b928.png",
+    "static/media/quote-generator.png": "/jeks95/my-app/static/media/quote-generator.3b9ae0d5068a477a2ee3.png",
+    "static/media/react.png": "/jeks95/my-app/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/jeks95/my-app/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/tailwind.png": "/jeks95/my-app/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/jeks95/my-app/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/html.png": "/jeks95/my-app/static/media/html.ff3cf75e3b7cbb4ea77c.png",
+    "static/media/javascript.png": "/jeks95/my-app/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/jeks95/my-app/index.html",
+    "main.c1ba425e.css.map": "/jeks95/my-app/static/css/main.c1ba425e.css.map",
+    "main.5638d79a.js.map": "/jeks95/my-app/static/js/main.5638d79a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1ba425e.css",
+    "static/js/main.5638d79a.js"
+  ]
+}
